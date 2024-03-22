@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trivia Showdown</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      #question-container {
+        margin-bottom: 20px;
+      }
+
+      .choice {
+        margin: 10px;
+        display: inline-block;
+      }
+
+      button {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      #status-container {
+        margin-top: 20px;
+      }
+
+      #start-game-container,
+      #game-container {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="start-game-container">
+      <h1>Trivia Showdown</h1>
+      <p>Are you ready?</p>
+      <button id="start-game-button" onclick="startGame()">Start Game</button>
+    </div>
+
+    <div id="game-container">
+      <h1>Simple Trivia Game</h1>
+      <div id="question-container"></div>
+      <div id="status-container">
+        <p id="status-text">Current status:</p>
+        <p id="points-text">Points: 0</p>
+        <p id="timer-text">Time left: 05:00</p>
+        <p id="questions-left-text">Questions left:</p>
+        <button id="next-button" onclick="nextQuestion()" disabled>Next</button>
+      </div>
+    </div>
+
+    <script src="js/trivia-game.js"></script>
+  </body>
+</html>
