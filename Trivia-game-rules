@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Game Rules</title>
+</head>
+
+<body>
+  <div class="instructions">
+  <h1>Welcome to our Trivia Game!</h1>
+  <p>Before you begin, please familiarize yourself with the rules:</p>
+  <ol>
+    <li>Answer each question to the best of your ability.</li>
+    <li>Once you select an answer, it cannot be changed.</li>
+    <li>You have a limited time to answer each question.</li>
+    <li>Points are awarded for each correct answer.</li>
+    <li>The winner is determined by the highest score at the end.</li>
+  </ol>
+  </div>
+  <button onclick="startGame()">Start Game</button>
+
+  <script>
+    function startGame() {
+      alert("Let's get started! Good luck!");
+    }
+  </script>
+
+</body>
+
+</html>
