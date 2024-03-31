@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Trivia-Images/pic.jpg);
+    background-image: url(../Trivia-Images/pic.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -12,7 +12,7 @@ body {
 
 .container {
      font-size: 22px; color: aquamarine;
-     
+
   }
 
   h1 {
@@ -49,5 +49,3 @@ body {
   #game-container {
     display: none;
   }
-
-
